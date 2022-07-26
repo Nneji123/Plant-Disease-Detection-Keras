@@ -13,7 +13,7 @@ import os
 
 
 # Loading the Model
-model = load_model('plant_classifier.h5')
+model = load_model('./models/plant_classifier.h5')
 
 # Name of Classes
 target_names = ['Healthy', 'Powdery', 'Rust']
