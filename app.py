@@ -13,6 +13,11 @@ import os
 
 
 # Loading the Model
+if os.path.exists("./models/plant_classifier.h5") == False:
+    cmd = "wget -O ./models/plant_classifier.h5 https://drive.google.com/uc?export=download&id=1o2KsZ8Pc-45nCUCDmzq8MfUgEL_fdSvM"
+    os.system(cmd)
+else:
+    pass
 model = load_model('./models/plant_classifier.h5')
 
 # Name of Classes
