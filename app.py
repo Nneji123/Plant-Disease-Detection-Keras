@@ -12,15 +12,14 @@ warnings.filterwarnings("ignore")
 
 
 # Loading the Model
-model = load_model('plant_disease.h5')
+model = load_model('plant_classifier.h5')
 
 # Name of Classes
-CLASS_NAMES = ['Corn-Common_rust',
-               'Potato-Early_blight', 'Tomato-Bacterial_spot']
+target_names = ['Healthy', 'Powdery', 'Rust']
 
 app = FastAPI(
     title="Plant Disease Detection API",
-    description="""An API that utilises a Deep Learning model built with Keras(Tensorflow) to detect if a plant is suffering from Corn-Common_rust, Potato-Early_blight or Tomato-Bacterial_spot.""",
+    description="""An API that utilises a Deep Learning model built with Keras(Tensorflow) to detect if a plant is healthy or suffering from Rust and Powder formation.""",
     version="0.0.1",
     debug=True,
 )
@@ -55,8 +54,8 @@ async def root(file: UploadFile = File(...)):
     contents = io.BytesIO(await file.read())
     file_bytes = np.asarray(bytearray(contents.read()), dtype=np.uint8)
     img = cv2.imdecode(file_bytes, 1)
-    img = cv2.resize(img, (256, 256))
-    img.shape = (1, 256, 256, 3)
+    img = cv2.resize(img, (80, 80))
+    img.shape = (1, 80, 80, 3)
     image = model.predict(img)
-    result = CLASS_NAMES[np.argmax(image)]
-    return (str("This is "+result.split('-')[0] + " leaf with " + result.split('-')[1]))
+    result = target_names[np.argmax(image)]
+    return (str("Result from prediction: " +result + " plant."))
