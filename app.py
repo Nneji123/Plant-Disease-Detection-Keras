@@ -10,15 +10,21 @@ from keras.models import load_model
 import warnings
 warnings.filterwarnings("ignore")
 import os
+import gdown
 
+def url_to_id(url):
+    x = url.split("/")
+    return x[5]
 
-# Loading the Model
-if os.path.exists("./models/plant_classifier.h5") == False:
-    cmd = "wget -O ./models/plant_classifier.h5 https://drive.google.com/uc?export=download&id=1o2KsZ8Pc-45nCUCDmzq8MfUgEL_fdSvM"
-    os.system(cmd)
+if os.path.exists("plant_classifier.h5") == False:
+    id = url_to_id('https://drive.google.com/file/d/1-0D3D2zxsjYTJsmP2HzJBYX46ixsJFcO/view?usp=sharing')
+    url = 'https://drive.google.com/uc?id='+id
+    output = 'plant_classifier.h5'
+    gdown.download(url, output, quiet=False)
 else:
     pass
-model = load_model('./models/plant_classifier.h5')
+
+model = load_model('plant_classifier.h5')
 
 # Name of Classes
 target_names = ['Healthy', 'Powdery', 'Rust']

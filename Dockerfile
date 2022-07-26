@@ -18,8 +18,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-RUN mkdir -p ./models
-
-ADD https://drive.google.com/uc?export=download&id=1o2KsZ8Pc-45nCUCDmzq8MfUgEL_fdSvM ./models
-
 CMD gunicorn -w 3 -k uvicorn.workers.UvicornWorker app:app --bind 0.0.0.0:$PORT
