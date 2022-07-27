@@ -2,6 +2,5 @@ fastapi[all]
 keras==2.9.0
 numpy==1.23.1
 pillow
-tensorflow --no-cache-dir
 gunicorn
 gdown
