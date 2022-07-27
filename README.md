@@ -1,13 +1,13 @@
 # Plant Disease Detection with Keras and FastAPI
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/keras-red.svg?style=flat&logo=keras&logoColor=white)](http://www.pytorch.org/news.html)
+[![Framework](https://img.shields.io/badge/keras-red.svg?style=flat&logo=keras&logoColor=white)](http://www.Keras.org/news.html)
 [![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://lung-cancer-api.herokuapp.com/docs)
 [![Framework](https://img.shields.io/badge/Tensorflow-orange.svg?style=flat&logo=tensorflow&logoColor=white)](https://share.streamlit.io/nneji123/lung-cancer-prediction/main)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
-![reposize](https://img.shields.io/github/repo-size/Nneji123/Plant-Disease-Detection-Pytorch)
+![reposize](https://img.shields.io/github/repo-size/Nneji123/Plant-Disease-Detection-Keras)
 
 **Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease(Rust, Powdery Mildew) of infected plants.**
 
@@ -102,12 +102,12 @@ https://user-images.githubusercontent.com/101701760/181192761-a3c4e9d7-5519-43d8
 To run the application on your local system do the following:
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nneji123/Plant-Disease-Detection-Pytorch.git
+git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
 ```
 
 2. Change the directory:
 ```
-cd Plant-Disease-Detection-Pytorch
+cd Plant-Disease-Detection-Keras
 ```
 
 3. Install the requirements:
@@ -130,12 +130,12 @@ You can also run the application in a docker container using docker compose(if y
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nneji123/Plant-Disease-Detection-Pytorch.git
+git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
 ```
 
 2. Change the directory:
 ```
-cd Plant-Disease-Detection-Pytorch
+cd Plant-Disease-Detection-Keras
 ```
 
 3. Run the docker compose command
@@ -148,19 +148,19 @@ You should be able to view the application by going to http://localhost:8080/
 
 Click the button below to start a new development environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/Plant-Disease-Detection-Pytorch)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/Plant-Disease-Detection-Keras)
 
 ## 💻 Deploying the Application to Heroku
 Assuming you have git and heroku cli installed just carry out the following steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Nneji123/Plant-Disease-Detection-Pytorch.git
+git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
 ```
 
 2. Change the directory:
 ```
-cd Plant-Disease-Detection-Pytorch
+cd Plant-Disease-Detection-Keras
 ```
 
 3. Login to Heroku
