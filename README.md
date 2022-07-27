@@ -16,7 +16,7 @@
 - **NNEJI IFEANYI DANIEL**
 
 
-You can check out the article on Medium describing in detail how this project was carried out.
+**You can check out the article on Medium describing in detail how this project was carried out.**
 
 [Medium](https://medium.com/mlearning-ai/credit-card-fraud-detection-2527ca04c3de)
 
@@ -54,7 +54,7 @@ The App can be can be viewed [here](https://plantdispred.herokuapp.com)
 
 ## Data Preparation
 
-The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets. There is a total of 1530 images divided into train, test, and validation sets.
+**The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets. There is a total of 1530 images divided into train, test, and validation sets.**
 
 ### Rusts
 
@@ -99,7 +99,7 @@ The model was built using Keras(Tensorflow as backend) and was trained using the
 https://user-images.githubusercontent.com/101701760/181192761-a3c4e9d7-5519-43d8-9a27-f9ca7896cce8.mp4
 
 ## How to run the application locally
-To run the application on your local system do the following:
+**To run the application on your local system do the following:**
 1. Clone the repository:
 ```bash
 git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
@@ -123,10 +123,10 @@ python download.py
 ```
 uvicorn app:app --reload --port 8000
 ```
-You should be able to view the application by going to http://127.0.0.1:8000/
+**You should be able to view the application by going to http://127.0.0.1:8000/**
 
 ## How to run locally with Docker Compose
-You can also run the application in a docker container using docker compose(if you have it installed)
+**You can also run the application in a docker container using docker compose(if you have it installed)**
 
 1. Clone the repository:
 ```bash
@@ -138,7 +138,13 @@ git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
 cd Plant-Disease-Detection-Keras
 ```
 
-3. Run the docker compose command
+3. Download the model:
+```bash
+pip install gdown
+python download.py
+```
+
+4. Run the docker compose command
 ```docker
 docker compose up -d --build 
 ```
@@ -146,12 +152,12 @@ You should be able to view the application by going to http://localhost:8080/
 
 ## How to run in a Gitpod Cloud Environment
 
-Click the button below to start a new development environment:
+**Click the button below to start a new development environment:**
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/Plant-Disease-Detection-Keras)
 
 ## 💻 Deploying the Application to Heroku
-Assuming you have git and heroku cli installed just carry out the following steps:
+**Assuming you have git and heroku cli installed just carry out the following steps:**
 
 1. Clone the repository:
 ```bash
