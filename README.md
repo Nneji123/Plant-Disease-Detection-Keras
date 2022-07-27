@@ -24,6 +24,7 @@
 
 ## Table of Contents
 - [Plant Disease Detection with Keras and FastAPI](#plant-disease-detection-with-keras-and-fastapi)
+  * [Repository File Structure](#repository-file-structure)
   * [Problem Statement](#problem-statement)
     + [Rusts](#rusts)
     + [Powdery Mildew](#powdery-mildew)
@@ -42,6 +43,28 @@
   * [Deployment](#deployment)
     + [Deploying the Application to Heroku](#deploying-the-application-to-heroku)
     + [How to deploy the application on AWS EC2 using a Bash Script](#how-to-deploy-the-application-on-aws-ec2-using-a-bash-script)
+
+## Repository File Structure
+```bash
+├── app.py # main app
+├── aws.txt # required for deploying on aws
+├── docker-compose.yml # for running docker compose
+├── Dockerfile
+├── download.py # script to download model from google drive
+├── fastapi_setup # for deploying on aws
+├── LICENSE
+├── Notebook #Notebook folde
+   └── plant_disease_detection.ipynb
+├── README.md
+├── requirements.txt
+├── Research_Papers
+│   └── R_paper1.pdf
+├── setup.sh # bash script for deploying on aws ec2
+└── test_images # test images for inference
+    ├── 8fd27998ae52a4a6.jpg
+    ├── 9be41b823d13e3c6.jpg
+    └── 9d0f6e60819f9a5a.jpg
+```
 
 
 
