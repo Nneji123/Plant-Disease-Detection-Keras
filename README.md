@@ -11,6 +11,10 @@
 
 **Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease (Rust, Powdery Mildew) of infected plants.**
 
+**You can check out the article on [Hashnode](https://jayralph.hashnode.dev/plant-disease-detection-with-keras-and-fastapi) describing in detail how this project was carried out.**
+
+
+
 **The App can be can be viewed [here](http://18.207.206.196:80/docs)**
 
 ## Contributors
@@ -18,10 +22,6 @@
 - **OKAI OKO RAPHAEL**
 - **RICHARD KOFI ADUKONU**
 
-
-**You can check out the article on Hashnode describing in detail how this project was carried out.**
-
-[Hashnode](https://jayralph.hashnode.dev/plant-disease-detection-with-keras-and-fastapi)
 
 ## Table of Contents
 - [Plant Disease Detection with Keras and FastAPI](#plant-disease-detection-with-keras-and-fastapi)
@@ -47,14 +47,14 @@
 
 ## Repository File Structure
 ```bash
-├── app.py # main app
-├── aws.txt # required for deploying on aws
+├── app.py # main fastapi app
+├── aws.txt # requirements for deploying on aws
 ├── docker-compose.yml # for running docker compose
 ├── Dockerfile
-├── download.py # script to download model from google drive
+├── download.py # script to download model hosted on google drive
 ├── fastapi_setup # for deploying on aws
 ├── LICENSE
-├── Notebook #Notebook folde
+├── Notebook #Notebook folder
    └── plant_disease_detection.ipynb
 ├── README.md
 ├── requirements.txt
@@ -187,7 +187,7 @@ You should be able to view the application by going to http://localhost:8080/
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Nneji123/Plant-Disease-Detection-Keras)
 
 ## Deployment
-### 💻 Deploying the Application to Heroku
+### Deploying the Application to Heroku
 **Assuming you have git and heroku cli installed just carry out the following steps:**
 
 1. Clone the repository:
