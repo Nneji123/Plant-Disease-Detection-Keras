@@ -9,12 +9,13 @@
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/Plant-Disease-Detection-Keras)
 
-**Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease(Rust, Powdery Mildew) of infected plants.**
+**Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease (Rust, Powdery Mildew) of infected plants.**
 
 **The App can be can be viewed [here](http://18.207.206.196:80/docs)**
 
 ## Contributors
 - **NNEJI IFEANYI DANIEL**
+- **RICHARD KOFI ADUKONU**
 
 
 **You can check out the article on Hashnode describing in detail how this project was carried out.**
