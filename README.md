@@ -11,14 +11,15 @@
 
 **Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease(Rust, Powdery Mildew) of infected plants.**
 
+**The App can be can be viewed [here](http://18.207.206.196:80/docs)**
 
 ## Contributors
 - **NNEJI IFEANYI DANIEL**
 
 
-**You can check out the article on Medium describing in detail how this project was carried out.**
+**You can check out the article on Hashnode describing in detail how this project was carried out.**
 
-[Medium](https://medium.com/mlearning-ai/credit-card-fraud-detection-2527ca04c3de)
+[Hashnode](https://jayralph.hashnode.dev/plant-disease-detection-with-keras-and-fastapi)
 
 ## Table of Contents
 - [Plant Disease Detection](#plant-disease-detection)
@@ -51,7 +52,7 @@ In this project, a neural network model was built using Tensorflow. The model de
 3. Design, build and deploy the model as a FastAPI Application.
 
 
-The App can be can be viewed [here](https://plantdispred.herokuapp.com)
+
 
 ## Data Preparation
 
@@ -196,7 +197,7 @@ heroku container:push web
 heroku container:release web
 ```
 
-### How to deploy the application using a Bash Script
+### How to deploy the application on AWS EC2 using a Bash Script
 **1. Fork this repository**
 
 **2. Login to AWS, create a new AWS EC2 instance and make sure to allow outside traffic as shown in the screenshots below:**
@@ -221,7 +222,7 @@ chmod u+x setup.sh
 ### You can then view the application by going to your Public IP's location, an example in my case will be:
 http://3.95.202.74:80/docs
 
-You can also deploy the API to AWS using a free tier EC2 instance by watching the video below:
+You can also watch this video for a more in depth explanation on how to deploy a FastAPI application on AWS EC2:
 [![How to deploy FastAPI on AWS](https://youtube-md.vercel.app/SgSnz7kW-Ko/640/360)](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
 </div>
 
