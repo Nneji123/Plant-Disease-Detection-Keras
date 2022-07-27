@@ -44,6 +44,8 @@
   * [Deployment](#deployment)
     + [Deploying the Application to Heroku](#deploying-the-application-to-heroku)
     + [How to deploy the application on AWS EC2 using a Bash Script](#how-to-deploy-the-application-on-aws-ec2-using-a-bash-script)
+  * [References](#references)
+
 
 ## Repository File Structure
 ```bash
