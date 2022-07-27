@@ -1,3 +1,4 @@
+sudo apt-get update
 ### Docker and docker compose prerequisites 
 sudo apt-get install -y curl 
 sudo apt-get install -y gnupg 
