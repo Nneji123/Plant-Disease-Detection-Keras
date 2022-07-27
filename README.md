@@ -178,7 +178,7 @@ python download.py
 ```docker
 docker compose up -d --build 
 ```
-You should be able to view the application by going to http://localhost:8080/
+You should be able to view the application by going to http://localhost:8000/
 
 ### Running in a Gitpod Cloud Environment
 
