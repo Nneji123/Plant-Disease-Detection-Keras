@@ -19,7 +19,7 @@
 
 ## Contributors
 - **[NNEJI IFEANYI DANIEL](https://github.com/Nneji123)**
-- **[OKAI OKO RAPHAEL]()**
+- **[OKAI OKO RAPHAEL](https://github.com/JayRalph360)**
 - **[RICHARD KOFI ADUKONU](https://github.com/SelormKofi)**
 
 
