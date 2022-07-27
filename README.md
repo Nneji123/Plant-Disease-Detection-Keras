@@ -21,18 +21,24 @@ You can check out the article on Medium describing in detail how this project wa
 [Medium](https://medium.com/mlearning-ai/credit-card-fraud-detection-2527ca04c3de)
 
 ## Table of Contents
+- [Plant Disease Detection](#plant-disease-detection)
   * [Problem Statement](#problem-statement)
     + [Project Outline](#project-outline)
   * [Data Preparation](#data-preparation)
     + [Rusts](#rusts)
     + [Powdery Mildew](#powdery-mildew)
   * [Model Building](#model-building)
+      - [Model Diagram](#model-diagram)
+      - [Model Accuracy](#model-accuracy)
+      - [Model Loss](#model-loss)
   * [Preview](#preview)
     + [FastAPI Demo](#fastapi-demo)
   * [How to run the application locally](#how-to-run-the-application-locally)
   * [How to run locally with Docker Compose](#how-to-run-locally-with-docker-compose)
   * [How to run in a Gitpod Cloud Environment](#how-to-run-in-a-gitpod-cloud-environment)
   * [💻 Deploying the Application to Heroku](#💻-deploying-the-application-to-heroku)
+
+
 
 
 ## Problem Statement
