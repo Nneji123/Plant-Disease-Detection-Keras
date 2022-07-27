@@ -1,6 +1,6 @@
 server {
     listen 80;
-    server_name 18.207.206.196;
+    server_name 3.86.29.193;
     location / {
         proxy_pass http://127.0.0.1:8000;
     }
