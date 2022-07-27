@@ -23,41 +23,31 @@
 [Hashnode](https://jayralph.hashnode.dev/plant-disease-detection-with-keras-and-fastapi)
 
 ## Table of Contents
-- [Plant Disease Detection](#plant-disease-detection)
+- [Plant Disease Detection with Keras and FastAPI](#plant-disease-detection-with-keras-and-fastapi)
   * [Problem Statement](#problem-statement)
-    + [Project Outline](#project-outline)
-  * [Data Preparation](#data-preparation)
     + [Rusts](#rusts)
     + [Powdery Mildew](#powdery-mildew)
+    + [Project Outline](#project-outline)
+  * [Data Preparation](#data-preparation)
   * [Model Building](#model-building)
       - [Model Diagram](#model-diagram)
       - [Model Accuracy](#model-accuracy)
       - [Model Loss](#model-loss)
   * [Preview](#preview)
     + [FastAPI Demo](#fastapi-demo)
-  * [How to run the application locally](#how-to-run-the-application-locally)
-  * [How to run locally with Docker Compose](#how-to-run-locally-with-docker-compose)
-  * [How to run in a Gitpod Cloud Environment](#how-to-run-in-a-gitpod-cloud-environment)
+  * [How to run the Application](#how-to-run-the-application)
+    + [Running on Local Machine](#running-on-local-machine)
+    + [Running on Local Machine with Docker Compose](#running-on-local-machine-with-docker-compose)
+    + [Running in a Gitpod Cloud Environment](#running-in-a-gitpod-cloud-environment)
   * [Deployment](#deployment)
-      + [💻 Deploying the Application to Heroku](#💻-deploying-the-application-to-heroku)
-      + [How to deploy the application on AWS EC2 using a Bash Script](#how-to-deploy-the-application-using-a-bash-script)
+    + [Deploying the Application to Heroku](#deploying-the-application-to-heroku)
+    + [How to deploy the application on AWS EC2 using a Bash Script](#how-to-deploy-the-application-on-aws-ec2-using-a-bash-script)
+
 
 
 
 ## Problem Statement
 In this project, a neural network model was built using Tensorflow. The model detects if a plant is suffering from a disease(Rust or Powdery Mildew). The model was then deployed as an API using the FastAPI framework.
- 
-### Project Outline
-1. Analyse the image data.
-2. Build a Neural Network with Keras for classifying the images.
-3. Design, build and deploy the model as a FastAPI Application.
-
-
-
-
-## Data Preparation
-
-**The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets. There is a total of 1530 images divided into train, test, and validation sets.**
 
 ### Rusts
 
@@ -71,6 +61,18 @@ Rusts are plant diseases caused by pathogenic fungi of the order Pucciniales (pr
 Powdery mildew is a fungal disease that affects a wide range of plants. Powdery mildew diseases are caused by many different species of fungi in the order Erysiphales. Powdery mildew is one of the easier plant diseases to identify, as its symptoms are quite distinctive. Infected plants display white powdery spots on the leaves and stems. The lower leaves are the most affected, but the mildew can appear on any above-ground part of the plant. As the disease progresses, the spots get larger and denser as large numbers of asexual spores are formed, and the mildew may spread up and down the length of the plant. Powdery mildew grows well in environments with high humidity and moderate temperatures. Greenhouses provide an ideal moist, temperate environment for the spread of the disease. This causes harm to agricultural and horticultural practices where powdery mildew may thrive in a greenhouse setting. In an agricultural or horticultural setting, the pathogen can be controlled using chemical methods, bio organic methods, and genetic resistance. It is important to be aware of powdery mildew and its management as the resulting disease can significantly reduce important crop yields.
 
 ![powdery](https://user-images.githubusercontent.com/101701760/181194617-2f0e7fd2-43d1-45e4-832f-b941cf26eaad.jpg)
+ 
+### Project Outline
+1. Analyse the image data.
+2. Build a Neural Network with Keras for classifying the images.
+3. Design, build and deploy the model as a FastAPI Application.
+
+
+## Data Preparation
+
+**The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets. There is a total of 1530 images divided into train, test, and validation sets.**
+
+
 
 
 [Dataset Link](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
@@ -101,7 +103,8 @@ The model was built using Keras(Tensorflow as backend) and was trained using the
 
 https://user-images.githubusercontent.com/101701760/181192761-a3c4e9d7-5519-43d8-9a27-f9ca7896cce8.mp4
 
-## How to run the application locally
+## How to run the Application
+### Running on Local Machine
 **To run the application on your local system do the following:**
 1. Clone the repository:
 ```bash
@@ -128,7 +131,7 @@ uvicorn app:app --reload --port 8000
 ```
 **You should be able to view the application by going to http://127.0.0.1:8000/**
 
-## How to run locally with Docker Compose
+### Running on Local Machine with Docker Compose
 **You can also run the application in a docker container using docker compose(if you have it installed)**
 
 1. Clone the repository:
@@ -153,7 +156,7 @@ docker compose up -d --build
 ```
 You should be able to view the application by going to http://localhost:8080/
 
-## How to run in a Gitpod Cloud Environment
+### Running in a Gitpod Cloud Environment
 
 **Click the button below to start a new development environment:**
 
@@ -204,6 +207,7 @@ heroku container:release web
 **2. Login to AWS, create a new AWS EC2 instance and make sure to allow outside traffic as shown in the screenshots below:**
 ![Screenshot (150)](https://user-images.githubusercontent.com/101701760/178163373-e4bb2c92-0f47-4a22-9556-dfc470fd7e8a.png)
 ![Screenshot (156)](https://user-images.githubusercontent.com/101701760/178163392-3c9fc8ec-e58a-420d-a6bb-2885215d8105.png)
+
 **3. When the instance has been launched, copy the Public IP address of your instance and paste it in the 'fastapi_setup' file of your cloned repository as shown below**
 ![Screenshot (163)](https://user-images.githubusercontent.com/101701760/178163457-2e156379-b542-4d24-aebf-e202dd44ae2c.png)
 ![Screenshot (164)](https://user-images.githubusercontent.com/101701760/178163536-918818ee-563d-4b0d-a5ec-5c265a75b2b4.png)
@@ -221,10 +225,10 @@ cd Plant-Disease-Detection-Keras
 chmod u+x setup.sh
 ./setup.sh
 ```
-### You can then view the application by going to your Public IP's location, an example in my case will be:
-http://3.95.202.74:80/docs
+**You can then view the application by going to your Public IP's location, an example in my case will be:
+http://3.95.202.74:80/docs**
 
-You can also watch this video for a more in depth explanation on how to deploy a FastAPI application on AWS EC2:
+**You can also watch this video for a more in depth explanation on how to deploy a FastAPI application on AWS EC2:
 [![How to deploy FastAPI on AWS](https://youtube-md.vercel.app/SgSnz7kW-Ko/640/360)](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
 </div>
 
