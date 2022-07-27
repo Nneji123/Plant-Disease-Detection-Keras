@@ -110,7 +110,7 @@ The model was built using Keras(Tensorflow as backend) and was trained using the
 - batch_size = 16
 - num_of_class = 3
 
-**After training the model had an accuracy of 93.75%**
+**After training, the model had an accuracy of 93.75%**
 
 #### Model Diagram
 ![model](https://user-images.githubusercontent.com/101701760/181197363-3f69bc0c-d38d-4fec-9009-08c0ab050cf1.png)
