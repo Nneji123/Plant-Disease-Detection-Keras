@@ -18,9 +18,9 @@
 **The App can be can be viewed [here](http://18.207.206.196:80/docs)**
 
 ## Contributors
-- **NNEJI IFEANYI DANIEL**
-- **OKAI OKO RAPHAEL**
-- **RICHARD KOFI ADUKONU**
+- **[NNEJI IFEANYI DANIEL](https://github.com/Nneji123)**
+- **[OKAI OKO RAPHAEL]()**
+- **[RICHARD KOFI ADUKONU]()**
 
 
 ## Table of Contents
