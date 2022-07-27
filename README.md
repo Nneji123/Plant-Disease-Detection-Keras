@@ -94,7 +94,7 @@ Powdery mildew is a fungal disease that affects a wide range of plants. Powdery 
 
 ## Data Preparation
 
-**The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets. There is a total of 1530 images divided into train, test, and validation sets.**
+**The dataset used to train the neural network contains three labels, **"Healthy", "Powdery", "Rust"** referring to plant conditions. There is a total of 1530 images divided into train, test, and validation sets.**
 
 
 
