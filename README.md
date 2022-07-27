@@ -1,5 +1,4 @@
-# Plant Disease Detection
-![Green Orange Illustrated How To Plant Seeds Instagram Post](https://user-images.githubusercontent.com/101701760/181201862-f02c33fe-57c7-41f7-944d-34365091a8aa.png)
+# Plant Disease Detection with Keras and FastAPI
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![Framework](https://img.shields.io/badge/keras-red.svg?style=flat&logo=keras&logoColor=white)](http://www.pytorch.org/news.html)
@@ -10,7 +9,7 @@
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/Plant-Disease-Detection-Pytorch)
 
-**Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease(Rust, Powder) infected plants.**
+**Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease(Rust, Powdery Mildew) of infected plants.**
 
 
 ## Contributors
