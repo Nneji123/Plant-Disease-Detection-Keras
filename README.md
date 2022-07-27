@@ -198,6 +198,7 @@ heroku container:release web
 
 ### How to deploy the application using a Bash Script
 **1. Fork this repository**
+
 **2. Login to AWS, create a new AWS EC2 instance and make sure to allow outside traffic as shown in the screenshots below:**
 ![Screenshot (150)](https://user-images.githubusercontent.com/101701760/178163373-e4bb2c92-0f47-4a22-9556-dfc470fd7e8a.png)
 ![Screenshot (156)](https://user-images.githubusercontent.com/101701760/178163392-3c9fc8ec-e58a-420d-a6bb-2885215d8105.png)
