@@ -1,3 +1,4 @@
+#!/bin/bash
 # Update and install requirements
 sudo apt-get update
 sudo apt install -y uvicorn
@@ -5,7 +6,7 @@ sudo apt install -y python3-pip nginx python3-opencv
 # Copy the configuration file to the nginx enabled sites folder
 sudo cp -R fastapi_setup /etc/nginx/sites-enabled/
 sudo service nginx restart
-cd ~/Plant-Disease-Detection
+cd ~/Plant-Disease-Detection-Keras
 # Install FastAPI application requirements
 pip3 install -r aws.txt
 pip3 install tensorflow --no-cache-dir
