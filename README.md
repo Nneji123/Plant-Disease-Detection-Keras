@@ -206,6 +206,7 @@ heroku container:release web
 **3. When the instance has been launched, copy the Public IP address of your instance and paste it in the 'fastapi_setup' file of your cloned repository as shown below**
 ![Screenshot (163)](https://user-images.githubusercontent.com/101701760/178163457-2e156379-b542-4d24-aebf-e202dd44ae2c.png)
 ![Screenshot (164)](https://user-images.githubusercontent.com/101701760/178163536-918818ee-563d-4b0d-a5ec-5c265a75b2b4.png)
+
 **4. Connect to your instance and clone your forked repository, an example in my case:**
 ```bash
 git clone https://github.com/Nneji123/Plant-Disease-Detection-Keras.git
