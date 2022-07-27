@@ -254,7 +254,13 @@ http://3.95.202.74:80/docs**
 
 **You can also watch this video for a more in depth explanation on how to deploy a FastAPI application on AWS EC2:**
 [![How to deploy FastAPI on AWS](https://youtube-md.vercel.app/SgSnz7kW-Ko/640/360)](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
-</div>
+
+## References
+- 
+-
+-
+-
+
 
 
 
