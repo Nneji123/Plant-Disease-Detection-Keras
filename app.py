@@ -25,11 +25,10 @@ app = FastAPI(
 
 @app.get("/", response_class=PlainTextResponse)
 async def running():
-    note = """
+    return """
 Plant Disease Detection API 🙌🏻
 Note: add "/docs" to the URL to get the Swagger UI Docs or "/redoc"
   """
-    return note
 
 
 favicon_path = "favicon.png"
@@ -56,4 +55,4 @@ async def root(file: UploadFile = File(...)):
     img.shape = (1, 80, 80, 3)
     image = model.predict(img)
     result = target_names[np.argmax(image)]
-    return (str("Result from prediction: " +result + " plant."))
+    return str(f"Result from prediction: {result} plant.")
