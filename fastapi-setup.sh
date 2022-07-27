@@ -15,11 +15,13 @@ sudo apt-get update
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ### Verify the Docker and docker compose install on Ubuntu 
 
-sudo apt install -y nginx
+sudo apt install -y python3-pip nginx
 # Copy the configuration file to the nginx enabled sites folder
 sudo cp -R fastapi_setup /etc/nginx/sites-enabled/
 sudo service nginx restart
 cd ~/Plant-Disease-Detection-Keras 
+pip3 install gdown
+python3 download.py
 # Kill any service running on port 80
 sudo kill -9 $(sudo lsof -t -i:80)
 sudo service nginx restart
