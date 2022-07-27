@@ -220,6 +220,10 @@ chmod u+x setup.sh
 ### You can then view the application by going to your Public IP's location, an example in my case will be:
 http://3.95.202.74:80/docs
 
+You can also deploy the API to AWS using a free tier EC2 instance by watching the video below:
+[![How to deploy FastAPI on AWS](https://youtube-md.vercel.app/SgSnz7kW-Ko/640/360)](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
+</div>
+
 
 
 
