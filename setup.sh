@@ -1,11 +1,13 @@
+# Update and install requirements
+sudo apt-get update
+sudo apt install -y uvicorn
 sudo apt install -y python3-pip nginx python3-opencv
-cd ~/Plant-Disease-Detection-Keras 
 # Copy the configuration file to the nginx enabled sites folder
 sudo cp -R fastapi_setup /etc/nginx/sites-enabled/
 sudo service nginx restart
 cd ~/Plant-Disease-Detection
 # Install FastAPI application requirements
-pip3 install -r requirements.txt
+pip3 install -r aws.txt
 python3 download.py
 # Kill any service running on port 80
 sudo kill -9 $(sudo lsof -t -i:80)
