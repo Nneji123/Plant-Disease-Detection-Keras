@@ -1,7 +1,7 @@
 # Plant Disease Detection with Keras and FastAPI
 
 [![Language](https://img.shields.io/badge/Python-darkblue.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
-[![Framework](https://img.shields.io/badge/keras-red.svg?style=flat&logo=keras&logoColor=white)](http://www.Keras.org/news.html)
+[![Framework](https://img.shields.io/badge/Keras-darkred.svg?style=flat&logo=keras&logoColor=white)](http://www.Keras.org/news.html)
 [![Framework](https://img.shields.io/badge/FastAPI-darkgreen.svg?style=flat&logo=fastapi&logoColor=white)](https://lung-cancer-api.herokuapp.com/docs)
 [![Framework](https://img.shields.io/badge/Tensorflow-orange.svg?style=flat&logo=tensorflow&logoColor=white)](https://share.streamlit.io/nneji123/lung-cancer-prediction/main)
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
