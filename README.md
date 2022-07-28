@@ -77,7 +77,7 @@ In this project, a neural network model was built using Tensorflow. The model de
 
 ### Rusts
 
-Rusts are plant diseases caused by pathogenic fungi of the order Pucciniales (previously known as Uredinales). An estimated 168 rust genera and approximately 7,000 species, more than half of which belong to the genus Puccinia, are currently accepted. Rust fungi are highly specialized plant pathogens with several unique features. Taken as a group, rust fungi are diverse and affect many kinds of plants. However, each species has a very narrow range of hosts and cannot be transmitted to non-host plants. In addition, most rust fungi cannot be grown easily in pure culture. A single species of rust fungi may be able to infect two different plant hosts in different stages of its life cycle, and may produce up to five morphologically and cytologically distinct spore-producing structures viz., spermogonia, aecia, uredinia, telia, and basidia in successive stages of reproduction. Each spore type is very host specific, and can typically infect only one kind of plant. Rust fungi are obligate plant pathogens that only infect living plants. Infections begin when a spore lands on the plant surface, germinates, and invades its host. Infection is limited to plant parts such as leaves, petioles, tender shoots, stem, fruits, etc. Plants with severe rust infection may appear stunted, chlorotic (yellowed), or may display signs of infection such as rust fruiting bodies. Rust fungi grow intracellularly, and make spore-producing fruiting bodies within or, more often, on the surfaces of affected plant parts. Some rust species form perennial systemic infections that may cause plant deformities such as growth retardation, witch's broom, stem canker, galls, or hypertrophy of affected plant parts. Rusts get their name because they are most commonly observed as deposits of powdery rust-coloured or brown spores on plant surfaces. The Roman agricultural festival Robigalia (April 25) has ancient origins in combating wheat rust.
+Rusts are plant diseases caused by pathogenic fungi of the order Pucciniales (previously known as Uredinales). An estimated 168 rust genera and approximately 7,000 species, more than half of which belong to the genus Puccinia, are currently accepted. Rust fungi are highly specialized plant pathogens with several unique features. Taken as a group, rust fungi are diverse and affect many kinds of plants. However, each species has a very narrow range of hosts and cannot be transmitted to non-host plants. In addition, most rust fungi cannot be grown easily in pure culture. A single species of rust fungi may be able to infect two different plant hosts in different stages of its life cycle, and may produce up to five morphologically and cytologically distinct spore-producing structures viz., spermogonia, aecia, uredinia, telia, and basidia in successive stages of reproduction. Each spore type is very host specific, and can typically infect only one kind of plant. Rust fungi are obligate plant pathogens that only infect living plants. Infections begin when a spore lands on the plant surface, germinates, and invades its host. Infection is limited to plant parts such as leaves, petioles, tender shoots, stem, fruits, etc. Plants with severe rust infection may appear stunted, chlorotic (yellowed), or may display signs of infection such as rust fruiting bodies. Rust fungi grow intracellularly, and make spore-producing fruiting bodies within or, more often, on the surfaces of affected plant parts.
 
 ![rust](https://user-images.githubusercontent.com/101701760/181194405-9e50852c-0311-4b43-bbf4-7fc1a0327fe3.jpg)
 
@@ -258,10 +258,10 @@ http://3.95.202.74:80/docs**
 [![How to deploy FastAPI on AWS](https://youtube-md.vercel.app/SgSnz7kW-Ko/640/360)](https://www.youtube.com/watch?v=SgSnz7kW-Ko)
 
 ## References
-- 
--
--
--
+- [Using Deep Learning for Image-Based Plant Disease Detection](https://www.frontiersin.org/articles/10.3389/fpls.2016.01419/full)
+- [Plant Disease Detection Using Machine Learning](https://www.researchgate.net/publication/327065422_Plant_Disease_Detection_Using_Machine_Learning)
+- [Plant Disease Recognition Dataset](https://www.kaggle.com/datasets/rashikrahmanpritom/plant-disease-recognition-dataset)
+- [Deploying Keras Models](https://www.kaggle.com/code/rashikrahmanpritom/plant-disease-recognition)
 
 
 
