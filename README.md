@@ -35,6 +35,8 @@
       - [Model Diagram](#model-diagram)
       - [Model Accuracy](#model-accuracy)
       - [Model Loss](#model-loss)
+      - [Classification Report](#classification-report)
+      - [Confusion Matrix](#confusion-matrix)
   * [Preview](#preview)
     + [FastAPI Demo](#fastapi-demo)
   * [How to run the Application](#how-to-run-the-application)
@@ -122,6 +124,14 @@ The model was built using Keras(Tensorflow as backend) and was trained using the
 
 #### Model Loss
 ![loss](https://user-images.githubusercontent.com/101701760/181198438-790861b9-210a-467f-93b4-69872e4aced5.png)
+
+#### Classification Report
+![class_report](https://user-images.githubusercontent.com/101701760/181481748-ca262039-c245-4d99-b0c2-2abdf8e791ed.png)
+
+
+
+#### Confusion Matrix
+![confusion_matrix](https://user-images.githubusercontent.com/101701760/181481797-e5755f0c-c427-4943-9dd0-65cc4e85c850.png)
 
 
 ## Preview
