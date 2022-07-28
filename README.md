@@ -127,7 +127,9 @@ The model was built using Keras(Tensorflow as backend) and was trained using the
 ## Preview
 ### FastAPI Demo
 
-https://user-images.githubusercontent.com/101701760/181192761-a3c4e9d7-5519-43d8-9a27-f9ca7896cce8.mp4
+https://user-images.githubusercontent.com/101701760/181475920-a2f02d3d-aa66-4be6-be92-9018809fd3ec.mp4
+
+
 
 ## How to run the Application
 ### Running on Local Machine
