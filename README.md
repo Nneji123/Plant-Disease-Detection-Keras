@@ -7,6 +7,7 @@
 ![hosted](https://img.shields.io/badge/Heroku-430098?style=flat&logo=heroku&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat&logo=docker&logoColor=white)
 ![build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat)
+![Gitpod](https://img.shields.io/badge/Gitpod-orange?style=flat&logo=gitpod&logoColor=white)
 ![reposize](https://img.shields.io/github/repo-size/Nneji123/Plant-Disease-Detection-Keras)
 
 **Plant Disease Detection model built with Tensorflow and deployed as an API on Heroku with FastAPI. An end-to-end Machine Learning Project carried out by Group 1 Zummit Africa AI/ML Team to detect disease (Rust, Powdery Mildew) of infected plants.**
